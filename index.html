@@ -450,7 +450,7 @@
     ======================*/
     const form = document.getElementById('reportForm');
     const sendWa = document.getElementById('sendWa');
-    form.addEventListener('submit', (e)=>{ e.preventDefault(); const data = Object.fromEntries(new FormData(form).entries()); const msg = `Denúncia anônima — Crescer Sem Pressa%0A`+`Tipo: ${encodeURIComponent(data.tipo)}%0A`+`Idade aproximada: ${encodeURIComponent(data.idade)}%0A`+`Descrição: ${encodeURIComponent(data.descricao)}`; sendWa.href = `https://wa.me/5582996696084?text=${msg}`; sendWa.textContent = 'Abrir WhatsApp com mensagem'; alert('Mensagem gerada! Clique em "Abrir WhatsApp com mensagem".'); });
+    form.addEventListener('submit', (e)=>{ e.preventDefault(); const data = Object.fromEntries(new FormData(form).entries()); const msg = `Denúncia anônima — Crescer Sem Pressa%0A`+`Tipo: ${encodeURIComponent(data.tipo)}%0A`+`Idade aproximada: ${encodeURIComponent(data.idade)}%0A`+`Descrição: ${encodeURIComponent(data.descricao)}`; sendWa.href = `https://wa.me/5582981884515?text=${msg}`; sendWa.textContent = 'Abrir WhatsApp com mensagem'; alert('Mensagem gerada! Clique em "Abrir WhatsApp com mensagem".'); });
 
     /* =====================
        Compartilhar (Web Share API)
